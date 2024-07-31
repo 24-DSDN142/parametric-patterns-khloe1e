@@ -21,7 +21,7 @@ function setup_wallpaper(pWallpaper) {
 function wallpaper_background() {
     background(245, 237, 237);
     noStroke();
- 
+
 }
 
 //draw this function loops, the code within read throught repetedly while running
@@ -31,7 +31,7 @@ function my_symbol(){
     square(pxsize*9, pxsize*5, pxsize);
     fill(255, 215, 223);
     rect(pxsize*10, pxsize*4, pxsize*2, pxsize);
-    fill(255, 215, 223)
+    fill(255, 215, 223);
     square(pxsize*12, pxsize*5, pxsize);
     fill(255, 215, 223);
     rect(pxsize*13, pxsize*6, pxsize, pxsize*2);
@@ -42,7 +42,7 @@ function my_symbol(){
     fill(255, 215, 223);
     square(pxsize*10, pxsize*10, pxsize);
     fill(255, 215, 223);
-    square(pxsize*9, pxsize*11, pxsize );
+    square(pxsize*9, pxsize*11, pxsize);
     fill(255, 215, 223);
     square(pxsize*8, pxsize*12, pxsize);
     fill(255, 215, 223);
@@ -50,84 +50,84 @@ function my_symbol(){
     fill(255, 215, 223);
     square(pxsize*6, pxsize*10, pxsize);
     fill(255, 215, 223);
-    square(pxsize*5, pxsize*9, pxsize, pxsize);
+    square(pxsize*5, pxsize*9, pxsize);
     fill(255, 215, 223);
-    square(pxsize*4, pxsize*8, pxsize, pxsize);
+    square(pxsize*4, pxsize*8, pxsize);
     fill(255, 215, 223);
     rect(pxsize*3, pxsize*6, pxsize, pxsize*2);
     fill(255, 215, 223);
-    square(pxsize*4, pxsize*5, pxsize, pxsize);
+    square(pxsize*4, pxsize*5, pxsize);
     fill(255, 215, 223);
     rect(pxsize*5, pxsize*4, pxsize*2, pxsize);
     fill(255, 215, 223);
-    square(pxsize*7, pxsize*5, pxsize, pxsize);
+    square(pxsize*7, pxsize*5, pxsiz);
     fill(255, 215, 223);
 
 //heart line 2
-    square(pxsize*8, pxsize*7, pxsize, pxsize);
+    square(pxsize*8, pxsize*7, pxsize);
     fill(254, 198, 212);
-    square(pxsize*9, pxsize*6,pxsize, pxsize);
+    square(pxsize*9, pxsize*6, pxsize);
     fill(254, 198, 212);
     rect(pxsize*10, pxsize*5, pxsize*2, pxsize);
     fill(254, 198, 212);
     rect(pxsize*12, pxsize*6, pxsize, pxsize*2);
     fill(254, 198, 212);
-    square(pxsize*11, pxsize*8, pxsize, pxsize);
+    square(pxsize*11, pxsize*8, pxsize);
     fill(254, 198, 212);
-    square(pxsize*10, pxsize*9, pxsize, pxsize);
+    square(pxsize*10, pxsize*9, pxsize);
     fill(254, 198, 212);
-    square(pxsize*9, pxsize*10, pxsize, pxsize);
+    square(pxsize*9, pxsize*10, pxsize);
     fill(254, 198, 212);
-    square(pxsize*8, pxsize*11, pxsize, pxsize);
+    square(pxsize*8, pxsize*11, pxsize);
     fill(254, 198, 212);
-    square(pxsize*7, pxsize*10, pxsize, pxsize,);
+    square(pxsize*7, pxsize*10, pxsize,);
     fill(254, 198, 212);
-    square(pxsize*6, pxsize*9, pxsize, pxsize);
+    square(pxsize*6, pxsize*9, pxsize);
     fill(254, 198, 212);
-    square(pxsize*5, pxsize*8, pxsize, pxsize);
+    square(pxsize*5, pxsize*8, pxsize);
     fill(254, 198, 212);
     rect(pxsize*4, pxsize*6, pxsize, pxsize*2);
     fill(254, 198, 212);
     rect(pxsize*5, pxsize*5, pxsize*2, pxsize);
     fill(254, 198, 212);
-    square(pxsize*7, pxsize*6, pxsize, pxsize);
+    square(pxsize*7, pxsize*6, pxsize);
     fill(254, 198, 212);
 
 //heartline3
-square(pxsize*8, pxsize*8, pxsize, pxsize);
+square(pxsize*8, pxsize*8, pxsize);
 fill(254, 175, 197);
-square(pxsize*9, pxsize*7, pxsize, pxsize);
+square(pxsize*9, pxsize*7, pxsize);
 fill(254, 175, 197);
 square(pxsize*10, pxsize*6, pxsize*2,pxsize);
 fill(254, 175, 197);
-square(pxsize*11,pxsize*7, pxsize, pxsize);
+square(pxsize*11,pxsize*7, pxsize);
 fill(254, 175, 197);
-square(pxsize*10,pxsize*8, pxsize, pxsize);
+square(pxsize*10,pxsize*8, pxsize);
 fill(254, 175, 197);
-square(pxsize*9,pxsize*9, pxsize, pxsize);
+square(pxsize*9,pxsize*9, pxsize);
 fill(254, 175, 197);
-square(pxsize*8,pxsize*10, pxsize, pxsize)
+square(pxsize*8,pxsize*10, pxsize);
 fill(254, 175, 197);
-square(pxsize*7,pxsize*9, pxsize, pxsize)
+square(pxsize*7,pxsize*9, pxsize);
 fill(254, 175, 197);
-square(pxsize*6,pxsize*8, pxsize, pxsize)
+square(pxsize*6,pxsize*8, pxsize);
 fill(254, 175, 197);
-square(pxsize*5,pxsize*6, pxsize, pxsize*2)
+square(pxsize*5,pxsize*6, pxsize*2);
 fill(254, 175, 197);
-square(pxsize*6,pxsize*6, pxsize, pxsize)
+square(pxsize*6,pxsize*6, pxsize);
 fill(254, 175, 197);
-square(pxsize*7,pxsize*7, pxsize, pxsize)
+square(pxsize*7,pxsize*7, pxsize);
 fill(254, 175, 197);
-//heartline4
-square(pxsize*8,pxsize*9, pxsize, pxsize);
+//heartline,
+square(pxsize*8,pxsize*9, pxsize);
 fill(254, 154, 182);
-square(pxsize*9,pxsize*8, pxsize, pxsize);
+square(pxsize*9,pxsize*8, pxsize);
 fill(254, 154, 182);
-square(pxsize*10,pxsize*7, pxsize, pxsize);
+square(pxsize*10,pxsize*7, pxsize);
 fill(254, 154, 182);
-square(pxsize*7,pxsize*8, pxsize, pxsize);
+square(pxsize*7,pxsize*8, pxsize);
 fill(254, 154, 182);
-square(pxsize*6,pxsize*7, pxsize, pxsize);
+square(pxsize*6,pxsize*7, pxsize);
 fill(254, 154, 182);
 
 }
