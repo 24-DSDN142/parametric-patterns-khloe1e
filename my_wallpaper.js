@@ -2,10 +2,11 @@
 var canvasX = 200;
 var canvasY = 200;
 var pxsize = 12.5;
-var line1 = [255, 215, 223] //pink1
-var line2 = [254,198, 212] //pink2
-var line3 = [254, 175, 197] //pink 3
-//(255, 215, 223) pink1, (254,198, 212) pink2, (254, 175, 197) pink 3
+var line1 = [255,215,223] //pink1
+var line2 = [254,198,212] //pink2
+var line3 = [254,175,197] //pink 3
+var line4 = [254,154,182]
+//(255, 215, 223) pink1, (254,198, 212) pink2, (254, 175, 197) pink 3, (254, 154, 182) pink4
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(DEVELOP_GLYPH);
@@ -27,107 +28,107 @@ function wallpaper_background() {
 //draw this function loops, the code within read throught repetedly while running
 function my_symbol(){
     square(pxsize*8, pxsize*6, pxsize);
-    fill(255, 215, 223);
+    fill(line1);
     square(pxsize*9, pxsize*5, pxsize);
-    fill(255, 215, 223);
+    fill(line1);
     rect(pxsize*10, pxsize*4, pxsize*2, pxsize);
-    fill(255, 215, 223)
+    fill(line1);
     square(pxsize*12, pxsize*5, pxsize);
-    fill(255, 215, 223);
+    fill(line1);
     rect(pxsize*13, pxsize*6, pxsize, pxsize*2);
-    fill(255, 215, 223);
+    fill(line1);
     square(pxsize*12, pxsize*8, pxsize);
-    fill(255, 215, 223);
+    fill(line1);
     square(pxsize*11, pxsize*9, pxsize);
-    fill(255, 215, 223);
+    fill(line1);
     square(pxsize*10, pxsize*10, pxsize);
-    fill(255, 215, 223);
+    fill(line1);
     square(pxsize*9, pxsize*11, pxsize);
-    fill(255, 215, 223);
+    fill(line1);
     square(pxsize*8, pxsize*12, pxsize);
-    fill(255, 215, 223);
+    fill(line1);
     square(pxsize*7, pxsize*11, pxsize);
-    fill(255, 215, 223);
+    fill(line1);
     square(pxsize*6, pxsize*10, pxsize);
-    fill(255, 215, 223);
+    fill(line1);
     square(pxsize*5, pxsize*9, pxsize);
-    fill(255, 215, 223);
+    fill(line1);
     square(pxsize*4, pxsize*8, pxsize);
-    fill(255, 215, 223);
+    fill(line1);
     rect(pxsize*3, pxsize*6, pxsize, pxsize*2);
-    fill(255, 215, 223);
+    fill(line1);
     square(pxsize*4, pxsize*5, pxsize);
-    fill(255, 215, 223);
+    fill(line1);
     rect(pxsize*5, pxsize*4, pxsize*2, pxsize);
-    fill(255, 215, 223);
+    fill(line1);
     square(pxsize*7, pxsize*5, pxsize);
-    fill(255, 215, 223);
+    fill(line1);
 
 //heart line 2
     square(pxsize*8, pxsize*7, pxsize);
-    fill(254, 198, 212);
+    fill(line2);
     square(pxsize*9, pxsize*6,pxsize);
-    fill(254, 198, 212);
+    fill(line2);
     rect(pxsize*10, pxsize*5, pxsize*2, pxsize);
-    fill(254, 198, 212);
+    fill(line2);
     rect(pxsize*12, pxsize*6, pxsize, pxsize*2);
-    fill(254, 198, 212);
+    fill(line2);
     square(pxsize*11, pxsize*8, pxsize);
-    fill(254, 198, 212);
+    fill(line2);
     square(pxsize*10, pxsize*9, pxsize);
-    fill(254, 198, 212);
+    fill(line2);
     square(pxsize*9, pxsize*10, pxsize);
-    fill(254, 198, 212);
+    fill(line2);
     square(pxsize*8, pxsize*11, pxsize);
-    fill(254, 198, 212);
+    fill(line2);
     square(pxsize*7, pxsize*10, pxsize);
-    fill(254, 198, 212);
+    fill(line2);
     square(pxsize*6, pxsize*9, pxsize);
-    fill(254, 198, 212);
+    fill(line2);
     square(pxsize*5, pxsize*8, pxsize);
-    fill(254, 198, 212);
+    fill(line2);
     rect(pxsize*4, pxsize*6, pxsize, pxsize*2);
-    fill(254, 198, 212);
+    fill(line2);
     rect(pxsize*5, pxsize*5, pxsize*2, pxsize);
-    fill(254, 198, 212);
+    fill(line2);
     square(pxsize*7, pxsize*6, pxsize);
-    fill(254, 198, 212);
+    fill(line2);
 
 //heartline3
 square(pxsize*8, pxsize*8, pxsize);
-fill(254, 175, 197);
+fill(line3);
 square(pxsize*9, pxsize*7, pxsize);
-fill(254, 175, 197);
+fill(line3);
 rect(pxsize*10, pxsize*6, pxsize*2,pxsize);
-fill(254, 175, 197);
+fill(line3);
 square(pxsize*11,pxsize*7, pxsize);
-fill(254, 175, 197);
+fill(line3);
 square(pxsize*10,pxsize*8, pxsize);
-fill(254, 175, 197);
+fill(line3);
 square(pxsize*9,pxsize*9, pxsize);
-fill(254, 175, 197);
+fill(line3);
 square(pxsize*8,pxsize*10, pxsize);
-fill(254, 175, 197);
+fill(line3);
 square(pxsize*7,pxsize*9, pxsize);
-fill(254, 175, 197);
+fill(line3);
 square(pxsize*6,pxsize*8, pxsize);
-fill(254, 175, 197);
+fill(line3);
 rect(pxsize*5,pxsize*6, pxsize, pxsize*2);
-fill(254, 175, 197);
+fill(line3);
 square(pxsize*6,pxsize*6, pxsize);
-fill(254, 175, 197);
+fill(line3);
 square(pxsize*7,pxsize*7, pxsize);
-fill(254, 175, 197);
+fill(line3);
 //heartline4
 square(pxsize*8,pxsize*9, pxsize);
-fill(254, 154, 182);
+fill(line4);
 square(pxsize*9,pxsize*8, pxsize);
-fill(254, 154, 182);
+fill(line4);
 square(pxsize*10,pxsize*7, pxsize);
-fill(254, 154, 182);
+fill(line4);
 square(pxsize*7,pxsize*8, pxsize);
-fill(254, 154, 182);
+fill(line4);
 square(pxsize*6,pxsize*7, pxsize);
-fill(254, 154, 182);
+fill(line4);
 
 }
