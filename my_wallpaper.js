@@ -2,11 +2,16 @@
 var canvasX = 200;
 var canvasY = 200;
 var pxsize = 12.5;
-var line1 = [255,215,223] //pink1
-var line2 = [254,198,212] //pink2
-var line3 = [254,175,197] //pink 3
+var line1 = [255,215,223] 
+var line2 = [254,198,212] 
+var line3 = [254,175,197] 
 var line4 = [254,154,182]
-//(255, 215, 223) pink1, (254,198, 212) pink2, (254, 175, 197) pink 3, (254, 154, 182) pink4
+var star1 = [243,204,243]
+var star2 = [155,134,189]
+//(255, 215, 223) lightest pink
+//(254,198, 212) 
+//(254, 175, 197) 
+//(254, 154, 182) rasberry pink
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(DEVELOP_GLYPH);
@@ -95,40 +100,58 @@ function my_symbol(){
     fill(line2);
 
 //heartline3
-square(pxsize*8, pxsize*8, pxsize);
-fill(line3);
-square(pxsize*9, pxsize*7, pxsize);
-fill(line3);
-rect(pxsize*10, pxsize*6, pxsize*2,pxsize);
-fill(line3);
-square(pxsize*11,pxsize*7, pxsize);
-fill(line3);
-square(pxsize*10,pxsize*8, pxsize);
-fill(line3);
-square(pxsize*9,pxsize*9, pxsize);
-fill(line3);
-square(pxsize*8,pxsize*10, pxsize);
-fill(line3);
-square(pxsize*7,pxsize*9, pxsize);
-fill(line3);
-square(pxsize*6,pxsize*8, pxsize);
-fill(line3);
-rect(pxsize*5,pxsize*6, pxsize, pxsize*2);
-fill(line3);
-square(pxsize*6,pxsize*6, pxsize);
-fill(line3);
-square(pxsize*7,pxsize*7, pxsize);
-fill(line3);
+    square(pxsize*8, pxsize*8, pxsize);
+    fill(line3);
+    square(pxsize*9, pxsize*7, pxsize);
+    fill(line3);
+    rect(pxsize*10, pxsize*6, pxsize*2,pxsize);
+    fill(line3);
+    square(pxsize*11,pxsize*7, pxsize);
+    fill(line3);
+    square(pxsize*10,pxsize*8, pxsize);
+    fill(line3);
+    square(pxsize*9,pxsize*9, pxsize);
+    fill(line3);
+    square(pxsize*8,pxsize*10, pxsize);
+    fill(line3);
+    square(pxsize*7,pxsize*9, pxsize);
+    fill(line3);
+    square(pxsize*6,pxsize*8, pxsize);
+    fill(line3);
+    rect(pxsize*5,pxsize*6, pxsize, pxsize*2);
+    fill(line3);
+    square(pxsize*6,pxsize*6, pxsize);
+    fill(line3);
+    square(pxsize*7,pxsize*7, pxsize);
+    fill(line3);
 //heartline4
-square(pxsize*8,pxsize*9, pxsize);
-fill(line4);
-square(pxsize*9,pxsize*8, pxsize);
-fill(line4);
-square(pxsize*10,pxsize*7, pxsize);
-fill(line4);
-square(pxsize*7,pxsize*8, pxsize);
-fill(line4);
-square(pxsize*6,pxsize*7, pxsize);
-fill(line4);
+    square(pxsize*8,pxsize*9, pxsize);
+    fill(line4);
+    square(pxsize*9,pxsize*8, pxsize);
+    fill(line4);
+    square(pxsize*10,pxsize*7, pxsize);
+    fill(line4);
+    square(pxsize*7,pxsize*8, pxsize);
+    fill(line4);
+    square(pxsize*6,pxsize*7, pxsize);
+    fill(line4);
+
+//star
+    square (pxsize*10, pxsize13, pxsize);
+    fill(star1);
+    square (pxsize*11, pxsize*15, pxsize);
+    fill(star1);
+    square (pxsize*11, pxsize*13, pxsize);
+    fill (star2);
+    square (pxsize*11, pxsize*11, pxsize);
+    fill (star1);
+    square (pxsize*12, pxsize*14, pxsize);
+    fill (star1);
+    square (pxsize*12, pxsize*13, pxsize);
+    fill (star2);
+    square (pxsize*12, pxsize*12, pxsize);
+    fill (star1);
+    
+
 
 }
