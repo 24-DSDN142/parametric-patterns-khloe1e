@@ -12,6 +12,8 @@ var star2 = [155,134,189]
 //(254,198, 212) 
 //(254, 175, 197) 
 //(254, 154, 182) rasberry pink
+//(243,204,243) pastel purple
+//(155,134,189) dark purple
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(DEVELOP_GLYPH);
