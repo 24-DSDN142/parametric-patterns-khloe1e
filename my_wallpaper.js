@@ -141,16 +141,31 @@ function my_symbol(){
     fill(star1);
     square (pxsize*11, pxsize*15, pxsize);
     fill(star1);
-    square (pxsize*11, pxsize*13, pxsize);
-    fill (star2);
     square (pxsize*11, pxsize*11, pxsize);
     fill (star1);
     square (pxsize*12, pxsize*14, pxsize);
     fill (star1);
-    square (pxsize*12, pxsize*13, pxsize);
-    fill (star2);
     square (pxsize*12, pxsize*12, pxsize);
     fill (star1);
+    square (pxsize*13, pxsize*16, pxsize);
+    fill (star1);
+    square (pxsize*13, pxsize*10, pxsize);
+    fill (star1);
+    rect (pxsize*13, pxsize*11, pxsize, pxsize*5);
+    fill (star2);
+    rect (pxsize*11,pxsize*13, pxsize*5, pxsize);
+    fill (star2);
+    square (pxsize*14, pxsize*14, pxsize);
+    fill(star1);
+    square (pxsize*14, pxsize*12, pxsize);
+    fill (star1);
+    square (pxsize*15, pxsize*15, pxsize);
+    fill (star1);
+    square (pxsize*15, pxsize*11, pxsize);
+    fill (star1);
+    square (pxsize*16, pxsize*13, pxsize);
+    fill (star1);
+
     
 
 
