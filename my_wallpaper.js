@@ -16,8 +16,8 @@ var star2 = [155,134,189]
 //(218,213,245) pastel ppblue //(196,189,236) darker
 
  function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(DEVELOP_GLYPH);
-  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(A3);
   pWallpaper.show_guide(true); //set this to false when you're ready to print
 
   //Grid settings
@@ -164,8 +164,4 @@ function my_symbol(){
     fill (star1);
     square (pxsize*16, pxsize*13, pxsize);
     fill (star1);
-
-    
-
-
 }
