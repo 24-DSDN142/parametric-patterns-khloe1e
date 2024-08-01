@@ -7,7 +7,7 @@ var line2 = [209,193,228]
 var line3 = [195,171,219] 
 var line4 = [184,149,210]
 var star1 = [243,204,243]
-var star2 = [184,149,210]
+var star2 = [155,134,189]
 //(255, 215, 223) pink1 //(254,198, 212) pink2 //(254, 175, 197) pink3 //(254, 154, 182) pink4
 //(243,204,243) pastel purple //(155,134,189) dark purple 
 //(216,226,210) pistachio green //(201,224,198) pastel green
