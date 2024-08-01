@@ -16,7 +16,7 @@ var star2 = [155,134,189]
 //(218,213,245) pastel ppblue //(196,189,236) darker
 
  function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.output_mode(DEVELOP_GLYPH); //DEVELOP_GLYPH //GRID_WALLPAPER //GLIDE_WALLPAPER
   pWallpaper.resolution(A3);
   pWallpaper.show_guide(true); //set this to false when you're ready to print
 
